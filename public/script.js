@@ -116,7 +116,7 @@ function note_player () {
 
 // this function handles the mouse event
 // when the cursor enters the canvas
-cnv_0.onpointerenter = e => {
+cnv_0.onpointerdown = e => {
 
    // set running to true
    running = true
@@ -127,7 +127,7 @@ cnv_0.onpointerenter = e => {
 
 // this function handles the mouse event
 // when the cursor moves over the canvas
-cnv_0.onpointerdown = e => {
+cnv_0.onpointermove = e => {
 
    // as the cursor goes from left to right
    // len gos from 0 to 5
