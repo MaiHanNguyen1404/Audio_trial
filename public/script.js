@@ -140,7 +140,7 @@ cnv_0.onpointermove = e => {
 
 // this function handles the mouse event
 // when the cursor leaves the canvas
-cnv_0.onclick = e => {
+cnv_0.onpointerdown = e => {
 
    // set running to false
    running = false
