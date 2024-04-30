@@ -127,7 +127,7 @@ cnv_0.onpointerenter = e => {
 
 // this function handles the mouse event
 // when the cursor moves over the canvas
-cnv_0.onpointermove = e => {
+cnv_0.onpointerdown = e => {
 
    // as the cursor goes from left to right
    // len gos from 0 to 5
@@ -140,12 +140,8 @@ cnv_0.onpointermove = e => {
 
 // this function handles the mouse event
 // when the cursor leaves the canvas
-cnv_0.onpointerdown = e => {
+cnv_0.onpointerup = e => {
 
    // set running to false
    running = false
-}
-
-cnv_0.onpointerup = e => {
-   running = true
 }
