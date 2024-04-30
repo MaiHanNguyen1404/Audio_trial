@@ -3,8 +3,8 @@ document.body.style.overflow = `hidden`
 
 // grabbing and formatting this ↑ canvas element 
 const cnv_0 = document.getElementById (`rapid_notes`)
-cnv_0.width = innerWidth/2
-cnv_0.height = innerHeight/2
+cnv_0.width = innerWidth
+cnv_0.height = innerHeight
 
 cnv_0.style.backgroundColor = 'orange'
 
@@ -140,7 +140,7 @@ cnv_0.onpointermove = e => {
 
 // this function handles the mouse event
 // when the cursor leaves the canvas
-cnv_0.onpointerleave = e => {
+cnv_0.onclick = e => {
 
    // set running to false
    running = false
