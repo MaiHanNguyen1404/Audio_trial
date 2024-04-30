@@ -145,3 +145,7 @@ cnv_0.onpointerdown = e => {
    // set running to false
    running = false
 }
+
+cnv_0.onpointerup = e => {
+   running = true
+}
