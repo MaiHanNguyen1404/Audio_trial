@@ -3,8 +3,8 @@ document.body.style.overflow = `hidden`
 
 // grabbing and formatting this ↑ canvas element 
 const cnv_0 = document.getElementById (`rapid_notes`)
-cnv_0.width = innerWidth
-cnv_0.height = innerHeight
+cnv_0.width = innerWidth/2
+cnv_0.height = innerHeight/2
 
 cnv_0.style.backgroundColor = 'orange'
 
