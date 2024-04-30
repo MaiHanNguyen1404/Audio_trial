@@ -5,7 +5,7 @@ document.body.style.overflow = `hidden`
 const cnv_0 = document.getElementById (`rapid_notes`)
 cnv_0.style.backgroundColor = 'orange'
 
-const ctx = cnv.getContext (`2d`)
+const ctx = cnv_0.getContext (`2d`)
 
 // get and suspend audio context
 const audio_context = new AudioContext ()
